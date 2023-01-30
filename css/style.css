@@ -1,7 +1,14 @@
 header {
-    align-items: center;
     background-color: #1366af;
-    padding: 0.625;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+.principal {
+    grid-column: 1/3;
 }
 
 body {
