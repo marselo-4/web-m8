@@ -5,37 +5,138 @@
     <title>Tu tienda online de informática de proximidad  | Beep Informática</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <header>
+        <div class="barra-1">
+            <a href="#">Wishlist</a>
+            <img src="assets/iconos/icono_comparador.svg" alt="">
+            <a href="#">Comparador de productos</a>
+        </div>
+
         <div class="principal">
 
             <div class="logo">
                 <img class="logo" src="assets/logoheader.png" alt="logo header">
             </div>
-
-            <div></div>
             
             <div class="buscador">
-                <input type="text" placeholder="Busca por productos, categorías y tiendas...">
-                 <button></button>
+                <form>
+                        <input id="buscador" type="text" placeholder="Busca por productos, categorías y tiendas...">
+                        <input id="boto" type="submit" value="" name="enviar" id="">
+                </form>
             </div>
 
-            <div></div>
 
             <div class="cuenta">
                 <img src="assets/iconos/micuenta.svg" alt="cuenta">
-                <p>Entrar</p>
+                <span>Entrar</span>
             </div>
-
-            <div></div>
 
             <div class="cesta">
                 <img src="assets/iconos/carrito.svg" alt="">
-                <p>Mi Cesta</p>
+                <span>Mi Cesta</span>
             </div>
 
         </div>
+
+        <div class="categories">
+
+            <div class="box1">
+                <a href="#">TODAS LAS CATEGORIAS</a>
+            </div>
+
+            <div class="box2">
+                <a href="#">Telefonía e Internet</a>
+            </div>
+
+            <div class="box3">
+                <a href="#">Servicios en tienda</a>
+            </div>
+
+            <div class="box4">
+                <a href="#">Folleto de ofertas</a>
+            </div>
+
+            <div class="box5">
+                <a href="#">Promociones</a>
+            </div>
+
+            <div class="box6">
+                <a href="#">Nuestras tiendas</a>
+            </div>
+
+        </div>
+
+
     </header>
+
+
+    <!-- Slideshow  -->
+    <section>
+            <!-- Slideshow container -->
+        <div class="slideshow-container">
+    
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="assets/sliders/slider1.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+          <img src="assets/sliders/slider2.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+          <img src="assets/sliders/slider3.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="assets/sliders/slider4.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/sliders/slider5.png" style="width:100%">
+          </div>
+    
+          <div class="mySlides fade">
+            <img src="assets/sliders/slider6.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/sliders/slider7.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/sliders/slider8.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/sliders/slider9.png" style="width:100%">
+          </div>
+
+        <!-- assets/sliders/slider1.png -->
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="js/slideshow.js"></script>
+
 </body>
 </html>
