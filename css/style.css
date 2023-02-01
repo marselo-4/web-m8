@@ -1,14 +1,43 @@
 header {
     background-color: #1366af;
-    display: grid;
-    margin: 0;
-    padding: 0;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
 }
 
 .principal {
-    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.logo {
+    border: 4px solid black;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 150px;
+    
+    grid-column: 1/1;
+}
+
+.buscador {
+    border: 4px solid black;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 150px;
+}
+
+.cuenta {
+    border: 4px solid black;
+    background-color: lightgray;
+    line-height: 150px;
+}
+
+.cesta {
+    border: 4px solid black;
+    background-color: lightgray;
+    line-height: 150px;
 }
 
 body {
