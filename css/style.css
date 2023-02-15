@@ -342,7 +342,7 @@ nav {
 
 .prodparent {
   display: grid;
-  grid-template-columns: auto 5% auto 5% auto 5% auto 5% auto;
+  grid-template-columns: 17.25% 4% 17.25% 4% 17.25% 4% 17.25% 4% 17.25%;
   color: white;
   margin: 10px;
   text-align: center;
@@ -378,6 +378,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  
 }
 
 .portades {
@@ -391,6 +392,22 @@ nav {
 #portada {
   margin-top: 25px;
   width: 100%;
+}
+
+.telefonia{
+  display: grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 75px;
+}
+
+#txttelf{
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 /* FOOTER */
@@ -417,4 +434,45 @@ footer {
 
 .footers h3 {
   color: #fcc01c;
+}
+
+/* COMENÇA SERVICIO */
+
+#titolgran{
+  font-weight: bolder;
+  font-size: 5.5ch;
+  color: #084c94;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#h3petit{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#h3petit a{
+  text-decoration: underline;
+}
+
+.divparent {
+  display: grid;
+  grid-template-columns: auto 4% auto 4% auto;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.divparent2{
+  border: solid 1px black;
+}
+
+#img2{
+  width: 35%;
+}
+
+#llista{
+  display: block;
 }
