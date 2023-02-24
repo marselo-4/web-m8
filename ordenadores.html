@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro servicio técnico en tiendas | BEEP Informática</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="barra-1">
+            <a id="txt1" href="#">Wishlist</a>
+            <img src="assets/iconos/icono_comparador.svg" alt="">
+            <a id="txt1" href="#">Comparador de productos</a>
+        </div>
+
+        <div class="principal">
+
+            <div class="logo">
+              <a href="index.html"><img class="logo" src="assets/logoheader.png" alt="logo header"></a>
+            </div>
+            
+          <div class="topnav">
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Busca por productos, categorias o tiendas..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+         </div>
+
+
+            <div class="cuenta">
+                <img src="assets/iconos/micuenta.svg" alt="cuenta">
+                <a id="txt1" href="#">Entrar</a>
+            </div>
+
+            <div class="cesta">
+                <img src="assets/iconos/carrito.svg" alt="">
+                <a id="txt1" href="#">Mi Cesta</a>
+            </div>
+
+        </div>
+
+<!--        <div class="categories"> 
+
+            <div></div> 
+            <div class="box1"> 
+                <a id="txt1" href="#"><i class="fa fa-bars" aria-hidden="true"></i><b> TODAS LAS CATEGORIAS</b></a>
+            </div>
+
+            <div class="box2"> 
+                <a id="txt2" href="#"><b>Telefonía e Internet</b></a>
+            </div>
+
+            <div class="box2">
+                <a id="txt2" href="#"><b>Servicios en tienda</b></a>
+            </div>
+
+            <div class="box2">
+                <a id="txt2" href="#"><b>Folleto de ofertas</b></a>
+            </div>
+
+            <div class="box3">
+                <a id="txt2" href="#"><b>Promociones</b></a>
+            </div>
+
+            <div class="box3">
+                <a id="txt2" href="#"><b>Nuestras tiendas</b></a>
+            </div>
+
+        </div>
+
+      -->
+
+      <nav>
+<ul>
+  <li class="dropdown">
+    <a id="box1" href="javascript:void(0)" class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i><b> TODAS LAS CATEGORIAS</b></a>
+    <div class="dropdown-content">
+      <a href="ordenadores.html">Ordenadores</a>
+      <a href="#">Componentes de Ordenador</a>
+      <a href="#">Gaming</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a id="box2" href="javascript:void(0)" class="dropbtn"><b>Telefonía e Internet</b></a>
+    <div class="dropdown-content">
+      <a href="#">Másmovil</a>
+      <a href="#">Pepephone</a>
+      <a href="#">Simyo</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a id="box2" href="javascript:void(0)" class="dropbtn"><b>Servicios en tienda</b></a>
+    <div class="dropdown-content">
+      <a href="servicio.html">Servicios técnicos en tienda</a>
+      <a href="#">Reparación de PC Sobremesa</a>
+      <a href="#">Reparación de portatiles</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a id="box2" href="javascript:void(0)" class="dropbtn"><b>Folleto de ofertas</b></a>
+    <div class="dropdown-content">
+      <a href="#">Catálogo Mensual</a>
+    </div>
+  </li>
+  <li><a id="box3" href="#home"><b>Promociones</b></a></li>
+  <li><a id="box3" href="#home"><b>Nuestras tiendas</b></a></li>
+</ul>
+</nav>
+    </header>
+
+
+
+
+
+
+    <div class="colparent">
+      <div class="colizq">
+        <p><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>  <i class="fa fa-chevron-right" aria-hidden="true"></i>  Ordenadores</p>
+        <h1>Ordenadores</h1>
+        <h3>Filtros</h3>
+        <hr>
+        <p>FILTRADO POR:</p>
+        <hr>
+        <div class="filtros">
+          <p>Categoría</p>
+          <p><button id="boton"></button>Ordenadores Portátiles</p>
+          <p><button id="boton"></button>Accesorios para portátiles</p>
+          <p><button id="boton"></button>Portátiles Profesionales</p>
+          <p><button id="boton"></button>PC Sobremesa</p>
+          <p><button id="boton"></button>Portátiles Gaming</p>
+          <p><button id="boton"></button>Accesorios PC Sobremesa</p>
+          <hr>
+        </div>
+
+        <div class="filtros">
+          <p>Marca</p>
+          <p><button id="boton"></button>HEWLETT PACKARD</p>
+          <p><button id="boton"></button>ASUS</p>
+          <p><button id="boton"></button>LENOVO</p>
+          <p><button id="boton"></button>MSI</p>
+          <p><button id="boton"></button>ACER</p>
+          <p><button id="boton"></button>DELL</p>
+          <hr>
+        </div>
+
+        <div class="filtros">
+          <p>Altura</p>
+          <p><p><button id="boton"></button>440 mm</p>
+          <p><p><button id="boton"></button>430 mm</p>
+          <p><button id="boton"></button>410 mm</p>
+          <p><button id="boton"></button>50 mm</p>
+          <p><button id="boton"></button>350 mm</p>
+          <p><button id="boton"></button>470 mm</p>
+          <hr>
+        </div>
+
+        <div class="filtros">
+          <p>Ancho</p>
+          <p><button id="boton"></button>440 mm</p>
+          <p><button id="boton"></button>400 mm</p>
+          <p><button id="boton"></button>345 mm</p>
+          <p><button id="boton"></button>300 mm</p>
+          <p><button id="boton"></button>410 mm</p>
+          <p><button id="boton"></button>340 mm</p>
+          <hr>
+        </div>
+
+        <div class="filtros">
+          <p>Color del Producto</p>
+          <p><button id="boton"></button>Negro</p>
+          <p><button id="boton"></button>Gris</p>
+          <p><button id="boton"></button>Plateado</p>
+          <p><button id="boton"></button>Blanco</p>
+          <p><button id="boton"></button>Azul</p>
+          <p><button id="boton"></button>Grafito</p>
+          <hr>
+        </div>
+
+      </div>
+
+      <div class="colder">
+        <h2>Los más populares en la categoría</h2>
+        <div class="prodparent2">
+
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/lenovov15.jpg" alt="v15">
+            <p id="producte">Lenovo V15 i5-1135G7 16GB 512GB W11H 15.6</p>
+            <p id="preu">641,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/soporte.jpg" alt="soporte">
+            <p id="producte">SOPORTE REFRIGERADOR PORTATIL 15.6" NGS</p>
+            <p id="preu">22,28€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/hp15.jpg" alt="hp15">
+            <p id="producte">PORTATIL HP 15s-fq2155ns CCORE i3-1115G4 HASTA 3,0GHZ</p>
+            <p id="preu">539,99€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/ideapad3.jpg" alt="Aspirador">
+            <p id="producte">PORTATIL LENOVO IDEPAD3 15ITL6 CORE I5-1155G7</p>
+            <p id="preu">679,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+         <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/spin3.jpg" alt="Aspirador">
+            <p id="producte">PORTATIL ACER SPIN3 CORE i5-1235U 1.3GHZ/ 8GB/ 512GB SSD</p>
+            <p id="preu">849,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+        </div>
+        <div class="textrandom">
+          <p>Si buscas un <b>ordenador</b> con el que poder estudiar, trabajar o entretenerte, nuestra tienda es el mejor lugar <b>donde comprar ordenadores baratos y de calidad.</b> Disponemos de precios competitivos y una gran variedad de modelos de distintos tipos de ordenadores cómo: <a href="#">portátiles</a> y <a href="#">PC de sobremesa</a>, <a href="#">portátiles gaming</a> y <a href="#">PC gaming</a>, <a href="#">odenadores All in One</a> y ¡hasta <a href="#">portátiles reacondicionados</a>! ¡Escoge el que más te guste y <b>llévatelo a casa al mejor precio!</b></p>
+        </div>
+        <div class="parentdrop">
+          <div>
+            <p><b>3418</b> Productos</p>
+          </div>
+          <div></div>
+          <div class="dropdown2">
+            <button onclick="myFunction()" class="dropbtn2">Relevancia  <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+            <div id="myDropdown" class="dropdown-content2">
+              <a href="#">Relevancia</a>
+              <a href="#">Ventas</a>
+              <a href="#">Más reciente</a>
+              <a href="#">Descuento</a>
+              <a href="#">Precios más altos</a>
+              <a href="#">Precios más bajos</a>
+            </div>
+            <script type="text/javascript" src="js/dropdown.js"></script>
+          </div>
+        </div>
+        <div class="prodparent2">
+
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/vitro.jpg" alt="Aspirador">
+            <p id="producte">VITROCERAMICA INDEPENDIENTE RADIANTES ZANUSSI...</p>
+            <p id="preu">184,74€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/olla.jpg" alt="Aspirador">
+            <p id="producte">OLLA A PRESION TEFAL P47051 5 LITROS</p>
+            <p id="preu">89,24€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/disc.jpg" alt="Aspirador">
+            <p id="producte">DISCO DURO EXTERNO 2TB SEAGATE BASIC 2.5"...</p>
+            <p id="preu">209,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/aspiradora.jpg" alt="Aspirador">
+            <p id="producte">ASPIRADOR ESCOBA DREAME T20 INALÁMBRICO</p>
+            <p id="preu">209,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+         <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/tablet.jpg" alt="Aspirador">
+            <p id="producte">TABLET LENOVO TAB M10 PLUS 10,6" IPS/OCTA CORE A...</p>
+            <p id="preu">197,25€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+        </div>
+
+        <div class="prodparent2">
+
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/vitro.jpg" alt="Aspirador">
+            <p id="producte">VITROCERAMICA INDEPENDIENTE RADIANTES ZANUSSI...</p>
+            <p id="preu">184,74€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/olla.jpg" alt="Aspirador">
+            <p id="producte">OLLA A PRESION TEFAL P47051 5 LITROS</p>
+            <p id="preu">89,24€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/disc.jpg" alt="Aspirador">
+            <p id="producte">DISCO DURO EXTERNO 2TB SEAGATE BASIC 2.5"...</p>
+            <p id="preu">209,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/aspiradora.jpg" alt="Aspirador">
+            <p id="producte">ASPIRADOR ESCOBA DREAME T20 INALÁMBRICO</p>
+            <p id="preu">209,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+         <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/tablet.jpg" alt="Aspirador">
+            <p id="producte">TABLET LENOVO TAB M10 PLUS 10,6" IPS/OCTA CORE A...</p>
+            <p id="preu">197,25€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+        </div>
+
+        <div class="prodparent2">
+
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/vitro.jpg" alt="Aspirador">
+            <p id="producte">VITROCERAMICA INDEPENDIENTE RADIANTES ZANUSSI...</p>
+            <p id="preu">184,74€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/olla.jpg" alt="Aspirador">
+            <p id="producte">OLLA A PRESION TEFAL P47051 5 LITROS</p>
+            <p id="preu">89,24€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/disc.jpg" alt="Aspirador">
+            <p id="producte">DISCO DURO EXTERNO 2TB SEAGATE BASIC 2.5"...</p>
+            <p id="preu">209,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+          <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/aspiradora.jpg" alt="Aspirador">
+            <p id="producte">ASPIRADOR ESCOBA DREAME T20 INALÁMBRICO</p>
+            <p id="preu">209,00€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+          <div></div>
+         <div class="slideprod">
+            <img id="fotosprod" src="assets/productes/tablet.jpg" alt="Aspirador">
+            <p id="producte">TABLET LENOVO TAB M10 PLUS 10,6" IPS/OCTA CORE A...</p>
+            <p id="preu">197,25€</p>
+            <a id="veure" href="#"><b>Ver Producto</b></a>
+          </div>
+        </div>
+
+        <div>
+          <button class="btn3"><b>MOSTRAR MÁS</b></button>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- COMENÇA FOOTER -->
+
+    <footer>
+        <div class="footerparent">
+  
+          <div class="footers">
+            <h3>Utilidades</h3>
+            <a href="#"><p>Servicios técnicos en tienda</p></a>
+            <a href="#"><p>Reparación de ordenadores de sobremesa</p></a>
+            <a href="#"><p>Reparación de portátiles</p></a>
+            <a href="#"><p>Reparación de móviles/smartphones y tablets</p></a>
+            <a href="#"><p>Servicio técnico autorizado HP</p></a>
+            <a href="#"><p>Reparación de consolas</p></a>
+            <a href="#"><p>Otros servicios</p></a>
+            <a href="#"><p>Soluciones para empresas</p></a>
+            <a href="#"><p>Soluciones para centros educativos</p></a>
+            <a href="#"><p>Descuento Estudiantes</p></a>
+          </div>
+  
+          <div class="footers">
+            <h3>Secciones</h3>
+            <a href="#"><p>Folleto de ofertas</p></a>
+            <a href="#"><p>Configurador de ordenadores</p></a>
+            <a href="#"><p>Promociones</p></a>
+            <a href="#"><p>Tiendas BEEP</p></a>
+            <a href="#"><p>Franquicias BEEP</p></a>
+            <a href="#"><p>Ofertas de Empleo en BEEP</p></a>
+            <a href="#"><p>Gestión de garantías</p></a>
+          </div>
+  
+          <div class="footers">
+            <h3>Telefonía & Internet</h3>
+            <a href="#"><p>MásMóvil en BEEP</p></a>
+            <a href="#"><p>Pepephone en BEEP</p></a>
+            <a href="#"><p>Llamaya en BEEP</p></a>
+            <a href="#"><p>Lebara en BEEP</p></a>
+            <a href="#"><p>Parlem en BEEP</p></a>
+            <a href="#"><p>Simyo en BEEP</p></a>
+            <h3>Mi Cuenta</h3>
+            <a href="#"><p>Registrarme</p></a>
+            <a href="#"><p>Mi Cesta</p></a>
+          </div>
+  
+          <div class="footers">
+            <h3>Información</h3>
+            <a href="#"><p>Conoce BEEP</p></a>
+            <a href="#"><p>Contáctanos</p></a>
+            <a href="#"><p>Ayuda y Preguntas Frecuentes</p></a>
+            <a href="#"><p>Condiciones generales de venta</p></a>
+            <a href="#"><p>Normativa PSD2</p></a>
+            <a href="#"><p>Bases Generales de Participación en Concursos y Promociones</p></a>
+            <a href="#"><p>Modalidades de compra y envío</p></a>
+            <a href="#"><p>Información Legal</p></a>
+            <a href="#"><p>Información adicional RGPDUE</p></a>
+            <a href="#"><p>Política de Privacidad</p></a>
+            <a href="#"><p>Política de Cookies</p></a>
+            <a href="#"><p>Plataforma de Resolución de conflictos en línea de la UE</p></a>
+          </div>
+  
+        </div>
+      </footer>
+
+</body>
+</html>

@@ -18,7 +18,7 @@ a {
 
 .principal {
     display: grid;
-    grid-template-columns: 20% 66% 7% 7%;
+    grid-template-columns: 20% 64% 8% 8%;
     color: white;
     margin: 0 auto;
     margin-top: 0;
@@ -28,7 +28,8 @@ a {
 
 .logo {
     margin-left: 10%;
-    width: 80%;
+    text-align: right;
+    width: 70%;
     height: auto;
 }
 
@@ -120,17 +121,16 @@ a {
 }
 
 .cuenta {
-    text-align: right;
+    text-align: left;
     margin-top: auto;
     margin-bottom: auto;
     color: white;
 }
 
 .cesta {
-    text-align: right;
+    text-align: left;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 10px;
     color: white;
 }
 
@@ -175,6 +175,7 @@ a {
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 #banner {
@@ -276,7 +277,7 @@ body {
   to {opacity: 1}
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -287,13 +288,13 @@ ul {
   margin-right: auto;
 }
 
-li {
+nav ul li {
   float: left;
   width: 15%;
   background-color: white;
 }
 
-li a, .dropbtn {
+nav ul li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -305,7 +306,7 @@ li a, .dropbtn {
   background-color: red;
 }*/
 
-li.dropdown {
+nav ul li.dropdown {
   display: inline-block;
 }
 
@@ -351,7 +352,9 @@ nav {
 }
 
 .slideprod {
-  border: 1px solid black;
+  border: 1px solid rgb(190, 190, 190);
+  box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+  text-align: center;
 }
 
 #fotosprod {
@@ -390,7 +393,7 @@ nav {
 }
 
 #portada {
-  margin-top: 25px;
+  margin-top: 0;
   width: 100%;
 }
 
@@ -449,6 +452,8 @@ footer {
 #h3petit{
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 50px;
+  color: rgb(65, 65, 65);
 }
 
 #h3petit a{
@@ -463,16 +468,168 @@ footer {
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 50px;
 }
 
-.divparent2{
+/* .divparent2{
   border: solid 1px black;
+} */
+
+.divparent2 h2{
+  margin-bottom: 40px;
 }
 
 #img2{
   width: 35%;
 }
 
-#llista{
+#llista li{
+  margin-top: 8px;
+  text-align: justify;
+}
+
+.categoria1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.categoria1 img{
+  width: 50px;
+}
+
+.prefooter h2{
+  text-align: center;
+  color: #084c94;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.prefooter img{
+  width: 1903px;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* COMENÇA CATEGORIA */
+
+.colparent {
+  display: grid;
+  grid-template-columns: 20% auto;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.colizq a{
+  text-decoration: none;
+  color: black;
+}
+
+.colder{
+  margin-top: 125px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.colder h2{
+  text-align: center;
+}
+
+.prodparent2 {
+  display: grid;
+  grid-template-columns: 17.25% 4% 17.25% 4% 17.25% 4% 17.25% 4% 17.25%;
+  color: white;
+  margin: 10px;
+}
+
+
+#boton {
+  height: 20px;
+  width: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: solid 2px grey;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.filtros{
   display: block;
+}
+
+.textrandom {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+/* Dropdown Button */
+.dropbtn2 {
+  background-color: #ffffff;
+  color: black;
+  padding: 13px;
+  font-size: 13px;
+  border: 1px solid #2196F3;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn2:hover, .dropbtn2:focus {
+  background-color: #f0f0f0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {background-color: #f2f2f2;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.parentdrop{
+  display: grid;
+  grid-template-columns: auto 75% auto;
+}
+
+.btn3 {
+  background-color: #ffffff;
+  color: #1366af;
+  padding: 13px;
+  font-size: 13px;
+  border: 2px solid #1366af;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 44%;
+  margin-bottom: 40px;
+}
+
+/* Dropdown button on hover & focus */
+.btn3:hover, .btn3:focus {
+  background-color: #1366af;
+  color: white;
 }
