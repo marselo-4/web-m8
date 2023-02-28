@@ -633,3 +633,138 @@ footer {
   background-color: #1366af;
   color: white;
 }
+
+.prodslider2{
+  margin-right: 18%;
+  margin-left: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.prodslider2 h2{
+  text-align: center;
+}
+
+.top-navbar{
+  margin-left: 15%;
+}
+
+.top-navbar a{
+  color: black;
+}
+
+.producte1{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.producte1-div{
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+}
+
+.izq img{
+  width: 180px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* COMENÇE SLIDESHOW 2 */
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container2 {
+  max-width: 100%;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 15%;
+}
+
+
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+}
+
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -22px;
+  margin-left: 6px;
+  padding: 13px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.69);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 5px 5px 5px 5px;
+  user-select: none;
+}
+
+.next2 {
+  right: 0.5%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.prev2:hover, .next2:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.dot2 {
+  cursor: pointer;
+  height: 7px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #55c9ff5d;
+  /* border-radius: 50%; */
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active2, .dot2:hover {
+  background-color: #1366af;
+}
+
+/* Fading animation */
+.fade2 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade2 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.botocesta{
+  background-color: rgb(255, 208, 0);
+  padding: 3%;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 2ch;
+}
+
+.especificaciones{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.parent-especificaciones{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.son-especificaciones{
+  border: 1px solid black;
+}
