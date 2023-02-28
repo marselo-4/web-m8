@@ -161,8 +161,26 @@ a {
   background-color: #e3f2fa;
   color: #1366af;
 }
+#box31 {
+  background-color: #e3f2fa;
+  color: #1366af;
+}
 
-#txt1 {
+#box4 {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  color: #1366af;
+}
+
+#box5 {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  color: #1366af;
+}
+
+.txt1 {
   color: white;
 }
 
@@ -182,7 +200,7 @@ body {
   width: 100%;
 }
 
-#titulos {
+.titulos {
   color: black;
   text-align: center;
   margin-top: 40px;
@@ -357,23 +375,23 @@ nav {
   text-align: center;
 }
 
-#fotosprod {
+.fotosprod {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#producte {
+.producte {
   color: black;
 }
 
-#preu {
+.preu {
   color: #1366af;
   font-size: 22px;
   font-weight: bold;
 }
 
-#veure {
+.veure {
   color: black;
   background: #fcd21c;
   margin-top: auto;
@@ -479,11 +497,11 @@ footer {
   margin-bottom: 40px;
 }
 
-#img2{
+.img2{
   width: 35%;
 }
 
-#llista li{
+.llista li{
   margin-top: 8px;
   text-align: justify;
 }
@@ -545,7 +563,7 @@ footer {
 }
 
 
-#boton {
+.boton {
   height: 20px;
   width: 20px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24),
